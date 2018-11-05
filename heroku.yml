@@ -1,0 +1,7 @@
+build:
+  languages:
+    - node
+  pre:
+    - npm install
+run:
+  web: npm start
