@@ -2,7 +2,7 @@ import React, {Component, Fragment} from 'react';
 import Bot from './Bot';
 import Node from './Node';
 
-export default class Grid extends Component {
+export default class SpriteContainer extends Component {
   state = {
     bots: [],
     nodes: []
